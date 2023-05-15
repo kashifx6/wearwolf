@@ -1,9 +1,18 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
-const Images = () => {
+const Images = (props) => {
   return (
-    <div>Images</div>
-  )
-}
+    <Image
+      src={`/assets/images/${props.src}`}
+      width={props.width}
+      height={props.height}
+      alt={props.alt}
+      quality={80}
+      priority={false}
+      loading="lazy"
+    />
+  );
+};
 
-export default Images
+export default Images;
