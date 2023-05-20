@@ -11,6 +11,7 @@ const Images = (props) => {
       quality={80}
       priority={false}
       loading="lazy"
+      className="w-full"
     />
   );
 };
