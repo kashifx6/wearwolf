@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidefilter = () => {
   return (
-    <div className=" md:m-5 m-0  p-4 w-full md:w-[300px] lg:w-[350px]">
+    <div className=" md:m-5 m-0  p-4 w-full lg:w-[350px]">
       {/* main categories  */}
       <div className="font-medium text-black mb-4">Categories</div>
       <div className="categories">
