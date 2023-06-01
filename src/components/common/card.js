@@ -1,19 +1,25 @@
 import React from "react";
 import Images from "./images";
+import Link from "next/link";
 
 const Card = (props) => {
   return (
     <div class="max-w-sm bg-white border border-gray-200 m-3 rounded-lg shadow">
-      <a href="#">
-        <Images src="heroImg.png" width={500} height={500} alt="Product Image" />
-      </a>
+      <Link href="/productdetail">
+        <Images
+          src="heroImg.png"
+          width={500}
+          height={500}
+          alt="Product Image"
+        />
+      </Link>
       <div class="p-5">
         {/* name  */}
-        <a href="#">
+        <Link href="/productdetail">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">
             Title here
           </h5>
-        </a>
+        </Link>
         {/* ratings  */}
         <div class="flex items-center justify-center mb-3">
           <svg
@@ -95,7 +101,6 @@ const Card = (props) => {
             Xl
           </div>
         </div>
-       
       </div>
     </div>
   );

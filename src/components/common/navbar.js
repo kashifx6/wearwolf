@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -13,7 +14,10 @@ const Navbar = () => {
         >
           <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
         </svg>
-        <span class="font-semibold text-xl tracking-tight">WearWolf</span>
+        <Link href="/">
+          {" "}
+          <span class="font-semibold text-xl tracking-tight">WearWolf</span>
+        </Link>
       </div>
       <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-black border-gray-700 hover:text-black hover:border-black">
@@ -29,38 +33,38 @@ const Navbar = () => {
       </div>
       <div class="w-full block flex-grow lg:flex lg:items-center  lg:w-auto">
         <div class="text-sm lg:flex-grow lg:flex lg:justify-center">
-          <a
-            href="#responsive-header"
+          <Link
+            href="/about"
             class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4"
           >
-            Docs
-          </a>
-          <a
-            href="#responsive-header"
+            About
+          </Link>
+          <Link
+            href="allproducts"
             class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4"
           >
-            Examples
-          </a>
-          <a
-            href="#responsive-header"
+            All Products
+          </Link>
+          <Link
+            href="/blog"
             class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500"
           >
             Blog
-          </a>
+          </Link>
         </div>
         <div>
-          <a
+          <Link
             href="#"
             class="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
           >
-            Download
-          </a>
-          <a
+            Be a member
+          </Link>
+          <Link
             href="#"
             class="mx-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-black bg-black mt-4 lg:mt-0"
           >
-            Download
-          </a>
+            Login
+          </Link>
         </div>
       </div>
     </nav>
