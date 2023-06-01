@@ -53,13 +53,13 @@ const Navbar = () => {
             href="#"
             class="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
           >
-            Download
+            Login
           </a>
           <a
             href="#"
-            class="mx-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-black bg-black mt-4 lg:mt-0"
+            class="uppercase mx-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-black bg-black mt-4 lg:mt-0"
           >
-            Download
+            Be A Member
           </a>
         </div>
       </div>
