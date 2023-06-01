@@ -57,14 +57,25 @@ const Navbar = () => {
             href="#"
             class="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
           >
+<<<<<<< HEAD
             Be a member
           </Link>
           <Link
+=======
+            Login
+          </a>
+          <a
+>>>>>>> 263a5eab43b0de987fe8dec844d9beac2f60b1d3
             href="#"
-            class="mx-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-black bg-black mt-4 lg:mt-0"
+            class="uppercase mx-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-black bg-black mt-4 lg:mt-0"
           >
+<<<<<<< HEAD
             Login
           </Link>
+=======
+            Be A Member
+          </a>
+>>>>>>> 263a5eab43b0de987fe8dec844d9beac2f60b1d3
         </div>
       </div>
     </nav>
