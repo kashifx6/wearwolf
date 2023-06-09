@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav class="flex items-center justify-between flex-wrap bg-white p-6">
-      <div class="flex items-center flex-shrink-0 text-black mr-6">
+      <div class="flex items-center flex-shrink-0 text-gray-950 mr-6">
         <svg
           class="fill-current h-8 w-8 mr-2"
           width="54"
@@ -20,7 +20,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div class="block lg:hidden">
-        <button class="flex items-center px-3 py-2 border rounded text-black border-gray-700 hover:text-black hover:border-black">
+        <button class="flex items-center px-3 py-2 border rounded text-gray-950 border-gray-700 hover:text-gray-950 hover:border-black">
           <svg
             class="fill-current h-3 w-3"
             viewBox="0 0 20 20"
@@ -35,47 +35,36 @@ const Navbar = () => {
         <div class="text-sm lg:flex-grow lg:flex lg:justify-center">
           <Link
             href="/about"
-            class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-950 hover:text-yellow-500 mr-4"
           >
             About
           </Link>
           <Link
             href="allproducts"
-            class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-950 hover:text-yellow-500 mr-4"
           >
             All Products
           </Link>
           <Link
             href="/blog"
-            class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-950 hover:text-yellow-500"
           >
             Blog
           </Link>
         </div>
         <div>
           <Link
-            href="#"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
+            href="/login"
+            class="inline-block text-sm px-4 py-2 leading-none border rounded text-gray-950 border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
           >
-<<<<<<< HEAD
             Be a member
           </Link>
           <Link
-=======
-            Login
-          </a>
-          <a
->>>>>>> 263a5eab43b0de987fe8dec844d9beac2f60b1d3
-            href="#"
+            href="/register"
             class="uppercase mx-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-black bg-black mt-4 lg:mt-0"
           >
-<<<<<<< HEAD
             Login
           </Link>
-=======
-            Be A Member
-          </a>
->>>>>>> 263a5eab43b0de987fe8dec844d9beac2f60b1d3
         </div>
       </div>
     </nav>

@@ -3,7 +3,7 @@ import Images from "./common/images";
 
 const HeroSection = () => {
   return (
-    <section class="bg-gradient-to-br from-yellow-500 to-yellow-100">
+    <section class="bg-gradient-to-br from-yellow-500 to-yellow-400">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <Images
@@ -14,10 +14,10 @@ const HeroSection = () => {
           />
         </div>
         <div class="mr-auto place-self-center lg:col-span-7">
-          <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-black uppercase">
+          <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white uppercase">
             Shop 'Till You Drop
           </h1>
-          <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+          <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">
             From checkout to global sales tax compliance, companies around the
             world use Flowbite to simplify their payment stack.
           </p>
@@ -54,7 +54,7 @@ const HeroSection = () => {
 
           <a
             href="#"
-            class="inline-flex items-center justify-center text-sm px-4 py-2 leading-none border rounded text-black border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
+            class="inline-flex items-center justify-center text-sm px-4 py-2 leading-none border rounded text-gray-950 border-black hover:bg-black hover:text-white mt-4 lg:mt-0"
           >
            Shop Now
            

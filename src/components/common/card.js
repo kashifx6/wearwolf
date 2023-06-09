@@ -85,19 +85,19 @@ const Card = (props) => {
         </div>
         {/* sizes  */}
         <div className="flex items-center justify-center mb-3">
-          <div className="rounded-full w-[60px] text-center bg-yellow-500 p-1 text-black">
+          <div className="rounded-full w-[60px] text-center bg-yellow-500 p-1 text-gray-950">
             XS
           </div>
-          <div className="rounded-full  w-[60px] text-center ml-3 bg-yellow-500 p-1 text-black">
+          <div className="rounded-full  w-[60px] text-center ml-3 bg-yellow-500 p-1 text-gray-950">
             S
           </div>
-          <div className="rounded-full  w-[60px] text-center ml-3 bg-yellow-500 p-1 text-black">
+          <div className="rounded-full  w-[60px] text-center ml-3 bg-yellow-500 p-1 text-gray-950">
             M
           </div>
-          <div className="rounded-full  w-[60px] text-center ml-3 bg-yellow-500 p-1 text-black">
+          <div className="rounded-full  w-[60px] text-center ml-3 bg-yellow-500 p-1 text-gray-950">
             L
           </div>
-          <div className="rounded-full   w-[60px] text-center ml-3 bg-yellow-500 p-1 text-black">
+          <div className="rounded-full   w-[60px] text-center ml-3 bg-yellow-500 p-1 text-gray-950">
             Xl
           </div>
         </div>

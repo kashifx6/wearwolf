@@ -9,16 +9,16 @@ const Sidebar = () => {
         className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
-        <div className="h-full px-3 py-4 overflow-y-auto bg-green-700">
+        <div className="h-full px-3 py-4 overflow-y-auto bg-gray-950">
           <ul className="space-y-2 font-medium">
             <li>
               <Link
                 href="/admin/dashboard"
-                className="flex items-center p-2 rounded-lg bg-white text-green-700"
+                className="flex items-center p-2 rounded-lg bg-yellow-500 text-gray-950"
               >
                 <svg
-                  className="lex-shrink-0 w-6 h-6 
-                       text-green-600"
+                  className="flex-shrink-0 w-6 h-6 
+                  text-gray-950"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -41,12 +41,12 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                href="/staff/adduser"
-                className="flex items-center p-2 rounded-lg bg-white text-green-700"
+                href="/admin/users"
+                className="flex items-center p-2 rounded-lg text-white"
               >
                 <svg
                   className="flex-shrink-0 w-6 h-6 
-                       text-green-600"
+                       text-yellow-500"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -65,22 +65,38 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                href="/nursing/nursingselectuser"
-                className="flex items-center p-2 rounded-lg bg-white text-green-700"
+                href="/admin/addusers"
+                className="flex items-center p-2 rounded-lg text-white"
               >
-              <svg className="flex-shrink-0 w-6 h-6 
-                       text-green-600"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="9" cy="7" r="4" />  <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />  <path d="M16 11h6m-3 -3v6" /></svg>
+                <svg
+                  className="flex-shrink-0 w-6 h-6 
+                       text-yellow-500"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  {" "}
+                  <path stroke="none" d="M0 0h24v24H0z" />{" "}
+                  <circle cx="9" cy="7" r="4" />{" "}
+                  <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />{" "}
+                  <path d="M16 11h6m-3 -3v6" />
+                </svg>
                 <span className="flex-1 ml-3 whitespace-nowrap">Add User</span>
               </Link>
             </li>
             <li>
               <Link
-                href="/staff/users"
-                className="flex items-center p-2 rounded-lg bg-white text-green-700"
+                href="/admin/products"
+                className="flex items-center p-2 rounded-lg text-white"
               >
                 <svg
                   className="flex-shrink-0 w-6 h-6 
-                       text-green-600"
+                       text-yellow-500"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -100,12 +116,12 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                href="/staff/users"
-                className="flex items-center p-2 rounded-lg bg-white text-green-700"
+                href="/admin/addproduct"
+                className="flex items-center p-2 rounded-lg text-white"
               >
                 <svg
                   className="flex-shrink-0 w-6 h-6 
-                  text-green-600"
+                  text-yellow-500"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -124,7 +140,7 @@ const Sidebar = () => {
               </Link>
             </li>
           </ul>
-          <ul className="pt-4 mt-4 space-y-2 font-medium border-t border-green-400 ">
+          <ul className="pt-4 mt-4 space-y-2 font-medium border-t border-yellow-400 ">
             <li>
               <Link
                 href="#"

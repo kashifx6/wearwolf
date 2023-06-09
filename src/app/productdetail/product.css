@@ -10,8 +10,19 @@
   .sizes input[type="radio"] {
     display: none;
   }
+
   
   .sizes input[type="radio"]:checked + label {
+    background-color: #fbbf24;
+    color: white;
+   
+  }
+
+  .sizes input[type="checkbox"] {
+    display: none;
+  }
+
+  .sizes input[type="checkbox"]:checked + label {
     background-color: #fbbf24;
     color: white;
    

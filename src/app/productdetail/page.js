@@ -127,7 +127,7 @@ const ProductDetail = () => {
 
           <div>
             {/* color  */}
-            <div className="text-black mb-4">Color</div>
+            <div className="text-gray-950 mb-4">Color</div>
             <div className="flex mb-2">
               <div className="flex flex-wrap max-w-xs">
                 <div
@@ -149,7 +149,7 @@ const ProductDetail = () => {
               </div>
             </div>
             {/* sizes  */}
-            <div className="text-black mb-4">Size</div>
+            <div className="text-gray-950 mb-4">Size</div>
             <div className="flex mb-2 sizes">
               <input type="radio" id="xs" name="skills" value="XS" />
               <label for="xs">XS</label>
@@ -202,7 +202,7 @@ const ProductDetail = () => {
             </div>
             {/* product description  */}
             <div className="w-full mb-4">
-              <div className="text-black mb-2">Description</div>
+              <div className="text-gray-950 mb-2">Description</div>
               <div className="text-gray-500 text-sm mb-2  ">
                 The Denim is an honest new take on a classic. The Denim uses
                 super soft, pre-shrunk cotton for true comfort and a dependable
@@ -216,7 +216,7 @@ const ProductDetail = () => {
             <hr className=" mb-4  " />
             {/* extra  detail  */}
             <div className="w-full mb-4">
-              <div className="text-black mb-2">Features</div>
+              <div className="text-gray-950 mb-2">Features</div>
               <ul className="list-disc ml-4">
                 <li className="text-gray-500 text-sm mb-2 ">
                   High quality fiber

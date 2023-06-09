@@ -4,7 +4,7 @@ const Sidefilter = () => {
   return (
     <div className=" md:m-5 m-0  p-4 w-full lg:w-[350px]">
       {/* main categories  */}
-      <div className="font-medium text-black mb-4">Categories</div>
+      <div className="font-medium text-gray-950 mb-4">Categories</div>
       <div className="categories">
         <div class="flex items-center mb-4">
           <input
@@ -15,7 +15,7 @@ const Sidefilter = () => {
           />
           <label
             for="default-checkbox"
-            class="ml-2 text-sm font-base text-black text-black "
+            class="ml-2 text-sm font-base text-gray-950 text-gray-950 "
           >
             Clothing
           </label>
@@ -30,7 +30,7 @@ const Sidefilter = () => {
             />
             <label
               for="default-checkbox"
-              class="ml-2 text-sm font-base text-black text-black "
+              class="ml-2 text-sm font-base text-gray-950 text-gray-950 "
             >
               Men
             </label>
@@ -44,7 +44,7 @@ const Sidefilter = () => {
             />
             <label
               for="default-checkbox"
-              class="ml-2 text-sm font-base text-black text-black "
+              class="ml-2 text-sm font-base text-gray-950 text-gray-950 "
             >
               Women
             </label>
@@ -59,7 +59,7 @@ const Sidefilter = () => {
           />
           <label
             for="default-checkbox"
-            class="ml-2 text-sm font-base text-black text-black "
+            class="ml-2 text-sm font-base text-gray-950 text-gray-950 "
           >
             Food
           </label>
@@ -73,14 +73,14 @@ const Sidefilter = () => {
           />
           <label
             for="default-checkbox"
-            class="ml-2 text-sm font-base text-black text-black "
+            class="ml-2 text-sm font-base text-gray-950 text-gray-950 "
           >
             Tech
           </label>
         </div>
       </div>
       {/* price range  */}
-      <div className="font-medium text-black mb-4">Price Range</div>
+      <div className="font-medium text-gray-950 mb-4">Price Range</div>
       <div className="range">
         <div className=" flex justify-between items-center mb-4">
           <input
@@ -98,25 +98,25 @@ const Sidefilter = () => {
         </div>
         <div className=" flex justify-between items-center mb-4">
           <div>
-            <label id="from" className="text-black">
+            <label id="from" className="text-gray-950">
               From
             </label>
             <input
               id="from"
               type="text"
-              class="text-center  block p-2.5 w-full z-20 text-sm  rounded-lg  border border-yellow-400 focus:outline-none bg-transparent placeholder-gray-400 text-black "
+              class="text-center  block p-2.5 w-full z-20 text-sm  rounded-lg  border border-yellow-400 focus:outline-none bg-transparent placeholder-gray-400 text-gray-950 "
               disabled
               value="12.0 $"
             />
           </div>
           <div className="ml-4">
-            <label id="from" className="text-black ">
+            <label id="from" className="text-gray-950 ">
               To
             </label>
             <input
               id="from"
               type="text"
-              class="text-center block p-2.5 w-full z-20 text-sm  rounded-lg  border border-yellow-400 focus:outline-none bg-transparent placeholder-gray-400 text-black "
+              class="text-center block p-2.5 w-full z-20 text-sm  rounded-lg  border border-yellow-400 focus:outline-none bg-transparent placeholder-gray-400 text-gray-950 "
               disabled
               value="52.0 $"
             />
@@ -124,7 +124,7 @@ const Sidefilter = () => {
         </div>
       </div>
       {/* Size  */}
-      <div className="font-medium text-black mb-4">Rating</div>
+      <div className="font-medium text-gray-950 mb-4">Rating</div>
       <div className="size">
         <div class="flex items-center mb-4">
           <input
@@ -134,7 +134,7 @@ const Sidefilter = () => {
             name="size"
             class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300  accent-yellow-400   focus:ring-blue-500 "
           />
-          <label for="size-1" class="ml-2 text-sm font-medium text-black">
+          <label for="size-1" class="ml-2 text-sm font-medium text-gray-950">
             XS
           </label>
         </div>
@@ -146,7 +146,7 @@ const Sidefilter = () => {
             name="size"
             class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300  accent-yellow-400   focus:ring-blue-500 "
           />
-          <label for="size-1" class="ml-2 text-sm font-medium text-black">
+          <label for="size-1" class="ml-2 text-sm font-medium text-gray-950">
             S
           </label>
         </div>
@@ -158,7 +158,7 @@ const Sidefilter = () => {
             name="size"
             class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300  accent-yellow-400   focus:ring-blue-500 "
           />
-          <label for="size-1" class="ml-2 text-sm font-medium text-black">
+          <label for="size-1" class="ml-2 text-sm font-medium text-gray-950">
             M
           </label>
         </div>
@@ -170,7 +170,7 @@ const Sidefilter = () => {
             name="size"
             class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300  accent-yellow-400   focus:ring-blue-500 "
           />
-          <label for="size-1" class="ml-2 text-sm font-medium text-black">
+          <label for="size-1" class="ml-2 text-sm font-medium text-gray-950">
             L
           </label>
         </div>
@@ -182,13 +182,13 @@ const Sidefilter = () => {
             name="size"
             class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300  accent-yellow-400   focus:ring-blue-500 "
           />
-          <label for="size-1" class="ml-2 text-sm font-base text-black">
+          <label for="size-1" class="ml-2 text-sm font-base text-gray-950">
             Xl
           </label>
         </div>
       </div>
       {/* Color  */}
-      <div className="font-medium text-black mb-4">Color</div>
+      <div className="font-medium text-gray-950 mb-4">Color</div>
       <div className="range mb-4">
         <div className="flex mb-4">
           <div className="flex flex-wrap max-w-xs">
@@ -224,7 +224,7 @@ const Sidefilter = () => {
         </div>
       </div>
       {/* ratings  */}
-      <div className="font-medium text-black mb-4">Rating</div>
+      <div className="font-medium text-gray-950 mb-4">Rating</div>
       <div className="ratings">
         <div class="flex items-center mb-4 onestar">
           <input
