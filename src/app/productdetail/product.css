@@ -1,29 +1,37 @@
 .sizes label {
-    display: inline-block;
-    width: 50px;
-    padding: 10px;
-    border: solid 1px #f2f2f2;
-    transition: all 0.4s;
-    text-align: center;
-  }
-  
-  .sizes input[type="radio"] {
-    display: none;
-  }
+  display: inline-block;
+  width: 50px;
+  padding: 10px;
+  border: solid 1px #f2f2f2;
+  transition: all 0.4s;
+  text-align: center;
+  cursor: pointer;
+}
+.sizes .custom {
+  border: none;
+}
 
-  
-  .sizes input[type="radio"]:checked + label {
-    background-color: #fbbf24;
-    color: white;
-   
-  }
+.sizes input[type="radio"] {
+  display: none;
+}
 
-  .sizes input[type="checkbox"] {
-    display: none;
-  }
+.sizes input[type="radio"]:checked + label {
+  background-color: #fbbf24;
+  color: white;
+}
 
-  .sizes input[type="checkbox"]:checked + label {
-    background-color: #fbbf24;
-    color: white;
-   
-  }
+.sizes input[type="checkbox"] {
+  display: none;
+}
+
+.sizes input[type="checkbox"]:checked + label {
+  background-color: #fbbf24;
+  color: white;
+}
+
+/* for colors  */
+.sizes .color {
+  width: 120px !important;
+  border-radius: 15px;
+  height: 45px;
+}
