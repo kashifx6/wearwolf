@@ -1,12 +1,13 @@
-import Sidebar from "@/components/admin/sidebar";
+import Layout from "@/components/admin/Layout";
 import React from "react";
 
 const AllProducts = () => {
   return (
-    <div>
-      <Sidebar />
-      <div className="ml-[280px] content p-3">asd</div>
-    </div>
+    <Layout>
+      <div>
+        <div className="md:ml-[280px] content p-3">asd</div>
+      </div>
+    </Layout>
   );
 };
 

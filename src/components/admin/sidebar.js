@@ -1,7 +1,8 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   return (
     <>
       <aside
@@ -14,11 +15,19 @@ const Sidebar = () => {
             <li>
               <Link
                 href="/admin/dashboard"
-                className="flex items-center p-2 rounded-lg bg-yellow-500 text-gray-950"
+                className={`flex items-center p-2 rounded-lg ${
+                  props.pathname === "/admin/dashboard"
+                    ? "bg-yellow-500 text-gray-950"
+                    : "text-white"
+                } `}
               >
                 <svg
-                  className="flex-shrink-0 w-6 h-6 
-                  text-gray-950"
+                  className={`flex-shrink-0 w-6 h-6 ${
+                    props.pathname === "/admin/dashboard"
+                      ? "text-gray-950"
+                      : "text-yellow-500"
+                  } 
+                 `}
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -42,7 +51,11 @@ const Sidebar = () => {
             <li>
               <Link
                 href="/admin/users"
-                className="flex items-center p-2 rounded-lg text-white"
+                className={`flex items-center p-2 rounded-lg ${
+                  props.pathname === "/admin/users"
+                    ? "bg-yellow-500 text-gray-950"
+                    : "text-white"
+                } `}
               >
                 <svg
                   className="flex-shrink-0 w-6 h-6 
@@ -66,11 +79,19 @@ const Sidebar = () => {
             <li>
               <Link
                 href="/admin/addusers"
-                className="flex items-center p-2 rounded-lg text-white"
+                className={`flex items-center p-2 rounded-lg ${
+                  props.pathname === "/admin/addusers"
+                    ? "bg-yellow-500 text-gray-950"
+                    : "text-white"
+                } `}
               >
                 <svg
-                  className="flex-shrink-0 w-6 h-6 
-                       text-yellow-500"
+                  className={`flex-shrink-0 w-6 h-6 ${
+                    props.pathname === "/admin/addusers"
+                      ? "text-gray-950"
+                      : "text-yellow-500"
+                  } 
+                 `}
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -92,11 +113,19 @@ const Sidebar = () => {
             <li>
               <Link
                 href="/admin/products"
-                className="flex items-center p-2 rounded-lg text-white"
+                className={`flex items-center p-2 rounded-lg ${
+                  props.pathname === "/admin/products"
+                    ? "bg-yellow-500 text-gray-950"
+                    : "text-white"
+                } `}
               >
                 <svg
-                  className="flex-shrink-0 w-6 h-6 
-                       text-yellow-500"
+                  className={`flex-shrink-0 w-6 h-6 ${
+                    props.pathname === "/admin/products"
+                      ? "text-gray-950"
+                      : "text-yellow-500"
+                  } 
+                 `}
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -117,11 +146,19 @@ const Sidebar = () => {
             <li>
               <Link
                 href="/admin/addproduct"
-                className="flex items-center p-2 rounded-lg text-white"
+                className={`flex items-center p-2 rounded-lg ${
+                  props.pathname === "/admin/addproduct"
+                    ? "bg-yellow-500 text-gray-950"
+                    : "text-white"
+                } `}
               >
                 <svg
-                  className="flex-shrink-0 w-6 h-6 
-                  text-yellow-500"
+                  className={`flex-shrink-0 w-6 h-6 ${
+                    props.pathname === "/admin/addproduct"
+                      ? "text-gray-950"
+                      : "text-yellow-500"
+                  } 
+                 `}
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
