@@ -4,9 +4,9 @@ import React from "react";
 
 const NewUsers = () => {
   return (
-    <div className="w-full max-w-md p-4 bg-gray-100 bordser border-gray-200 rounded-lg shadow sm:p-8 ">
+    <div className="w-full max-w-md p-4 bg-gray-100 h-[500px] rounded-lg shadow sm:p-8 ">
       <div className="flex items-center justify-between mb-4">
-        <h5 className="text-xl font-bold leading-none text-gray-900 ">
+        <h5 className="text-xl font-bold leading-none text-gray-950 ">
           Latest Buyers
         </h5>
         <Link
@@ -29,7 +29,7 @@ const NewUsers = () => {
                 />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 truncate ">
+                <p className="text-sm font-medium text-gray-950 truncate ">
                   Neil Sims
                 </p>
                 <p className="text-sm text-gray-500 truncate ">
@@ -52,7 +52,7 @@ const NewUsers = () => {
                 />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 truncate ">
+                <p className="text-sm font-medium text-gray-950 truncate ">
                   Bonnie Green
                 </p>
                 <p className="text-sm text-gray-500 truncate ">
@@ -76,7 +76,7 @@ const NewUsers = () => {
                 />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 truncate ">
+                <p className="text-sm font-medium text-gray-950 truncate ">
                   Michael Gough
                 </p>
                 <p className="text-sm text-gray-500 truncate">
@@ -99,7 +99,7 @@ const NewUsers = () => {
                 />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 truncate">
+                <p className="text-sm font-medium text-gray-950 truncate">
                   Lana Byrd
                 </p>
                 <p className="text-sm text-gray-500 truncate ">
@@ -122,7 +122,7 @@ const NewUsers = () => {
                 />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 truncate ">
+                <p className="text-sm font-medium text-gray-950 truncate ">
                   Thomes Lean
                 </p>
                 <p className="text-sm text-gray-500 truncate ">

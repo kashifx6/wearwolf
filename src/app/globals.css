@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fade Animation */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
+
+/* Slide Animation */
+.slide-enter {
+  transform: translateX(-100%);
+}
+.slide-enter-active {
+  transform: translateX(0%);
+  transition: transform 500ms ease-in;
+}
+.slide-exit {
+  transform: translateX(0%);
+}
+.slide-exit-active {
+  transform: translateX(100%);
+  transition: transform 500ms ease-out;
+}
+
+.slide-up-enter {
+  transform: translateY(100%);
+}
+.slide-up-enter-active {
+  transform: translateY(0%);
+  transition: transform 500ms ease-in;
+}
+.slide-up-exit {
+  transform: translateY(0%);
+}
+.slide-up-exit-active {
+  transform: translateY(-100%);
+  transition: transform 500ms ease-out;
+}
+
+.slide-right-enter {
+    transform: translateX(100%);
+  }
+  .slide-right-enter-active {
+    transform: translateX(0%);
+    transition: transform 500ms ease-in;
+  }
+  .slide-right-exit {
+    transform: translateX(0%);
+  }
+  .slide-right-exit-active {
+    transform: translateX(100%);
+    transition: transform 500ms ease-out;
+  }
+  

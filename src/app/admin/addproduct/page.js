@@ -294,7 +294,59 @@ const AddProduct = () => {
                     )}
                   </div>
                 </div>
+                <div className="lg:flex">
+                  <div className="lg:w-1/2 lg:mx-1">
+                    <label
+                      htmlFor="productQuantity"
+                      className="block mb-2 text-sm font-medium text-gray-950"
+                    >
+                      Quantity
+                    </label>
+                    <input
+                      type="number"
+                      step={1}
+                      min={1}
+                      id="productQuantity"
+                      {...register(
+                        "productQuantity",
+                        { required: true },
+                        { pattern: /[A-Za-z]{3}/ },
+                        { min: 1 }
+                      )}
+                      className={`${
+                        errors.productQuantity ? "border border-red-500" : ""
+                      } bg-gray-50 border border-gray-300 text-gray-950 text-sm rounded-lg focus:outline-none block w-full p-2.5`}
+                      placeholder="1"
+                    />
+                    {errors.productQuantity && (
+                      <span className="text-red-500 text-sm">*</span>
+                    )}
+                  </div>
+                  <div className="lg:w-1/2 lg:mx-1">
+                    <label
+                      htmlFor="productAvailability"
+                      className="block mb-2 text-sm font-medium text-gray-950"
+                    >
+                      Availablity
+                    </label>
+                    <select
+                      id="productAvailability"
+                      {...register("productAvailability", { required: true })}
+                      className={`${
+                        errors.productAvailability
+                          ? "border border-red-500"
+                          : ""
+                      } bg-gray-50 border border-gray-300 text-gray-950 text-sm rounded-lg focus:outline-none block w-full p-2.5`}
+                    >
+                      <option>In Stock</option>
+                      <option>Out of Stock</option>
+                    </select>
 
+                    {errors.productAvailability && (
+                      <span className="text-red-500 text-sm">*</span>
+                    )}
+                  </div>
+                </div>
                 <div>
                   <label
                     htmlFor="clothProductDescription"
